@@ -37,3 +37,42 @@ li a {
     font-size: 18px;
     color: #424242;
 }
+
+.brand-title,
+.brand-detail {
+    text-align: center;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.brand-detail {
+    font-size: 16px;
+    color: #727272;
+}
+
+.explore-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.explore-btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 45px;
+    border-radius: 8px;
+}
