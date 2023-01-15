@@ -1,0 +1,39 @@
+/* common style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* first-section style */
+.first-section {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.g3-architects {
+    margin: 0 230px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
