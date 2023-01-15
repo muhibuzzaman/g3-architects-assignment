@@ -13,7 +13,10 @@ body {
 .g3-architects,
 .features-div,
 .features-love-div,
-.facts-div {
+.facts-div,
+.sponsor-div,
+.extra-div,
+footer {
     margin: 0 230px;
 }
 
@@ -195,6 +198,66 @@ li a {
     font-size: 20px;
 }
 
+/* Sponsor style */
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-details {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 150px;
+    filter: grayscale(100%);
+    margin-right: 57px;
+}
+
+/* Bonus Part style */
+.extra-div {
+    margin-top: 100px;
+    display: flex;
+}
+
+.extra-div-info {
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+.sara-title {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.sara {
+    color: #FF900E;
+}
+
+/* footer style */
+footer {
+    margin-top: 130px;
+    margin-bottom: 150px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 40px 200px;
+}
+
+.footer-div {
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    color: #424242;
+}
+
+
 /* 
 -------------
 Media Queries
@@ -208,7 +271,10 @@ Media Queries
 
     .g3-architects,
     .features-love-div,
-    .facts-div {
+    .facts-div,
+    .sponsor-div,
+    .extra-div,
+    footer {
         margin: 0;
     }
 
@@ -255,5 +321,27 @@ Media Queries
 
     .fact-box {
         margin-top: 30px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        margin-top: 30px;
+    }
+
+    .extra-div {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .extra-img img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 100px;
+        padding: 30px 70px;
     }
 }
