@@ -10,7 +10,8 @@ body {
     background: rgba(255, 144, 14, 0.1);
 }
 
-.g3-architects {
+.g3-architects,
+.features-div {
     margin: 0 230px;
 }
 
@@ -25,7 +26,7 @@ header h3 {
     font-size: 45px;
 }
 
-.menu li {
+main li {
     list-style: none;
     display: inline;
     margin-right: 30px;
@@ -75,4 +76,88 @@ li a {
     margin-top: 50px;
     padding-bottom: 45px;
     border-radius: 8px;
+}
+
+/* features style */
+.features-section {
+    margin-top: 85px;
+}
+
+.features-div {
+    display: flex;
+    align-items: center;
+}
+
+.team-img-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.features-info-div {
+    padding-left: 73px;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.quick-color {
+    color: #727272;
+}
+
+.of-color {
+    font-weight: 700;
+}
+
+.features-color {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.features-detail {
+    color: #727272;
+}
+
+/* 
+-------------
+Media Queries
+-------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:576px) {
+    .first-section {
+        width: 100%;
+    }
+
+    .g3-architects {
+        margin: 0;
+    }
+
+    header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header h3 {
+        text-align: center;
+    }
+
+    main li {
+        display: block;
+    }
+
+    .brand-title {
+        margin: 0;
+    }
+
+    .features-div {
+        flex-direction: column;
+    }
+
+    .team-img-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
